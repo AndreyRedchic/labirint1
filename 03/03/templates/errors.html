@@ -1,0 +1,9 @@
+{% if errors %}
+<div class="">
+{% for error in errors %}
+  <div class="alert alert-danger" role="alert">
+    Сталася помилка! {{error}}
+  </div>
+{% endfor %}
+</div>
+{% endif %}

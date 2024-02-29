@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+{% include "banner.html" %}
+{% block body %}
+<div class="bg-light-subtle p-3 mt-3">
+    <h2 class="my-4 ms-3">Це мій блог</h2>
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="/static/{{user.image}}" class="img-thumbnail rounded mx-auto d-block" alt="Фото">
+        </div>
+        <div class="col-lg-6">
+            <p>{{user.description}}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

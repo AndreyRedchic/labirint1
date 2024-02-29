@@ -1,0 +1,20 @@
+.banner {
+    height: 400px;
+    width: 100%;
+}
+
+.banner1 {
+    background: url('/static/Pyton.jpg') no-repeat scroll right center / cover;
+}
+
+.banner2 {
+    background: url('/static/genshin 2024.jpg') no-repeat scroll right center / cover;
+}
+
+.banner3 {
+    background: url('/static/HSR.jpg') no-repeat scroll right center / cover;
+}
+
+.category_content {
+    min-height: 400px;
+}
